@@ -29,3 +29,156 @@ This project is grounded in psychological theories related to:
 
 Emotionally charged information is often more attention-grabbing and memorable than neutral information. In digital environments where users rapidly evaluate large amounts of content, emotional framing may influence which information individuals choose to engage with.
 Understanding these patterns may help researchers better understand online behavior, media engagement, and digital persuasion strategies.
+## 5. Experimental Design
+
+### Participants
+
+The proposed study would recruit approximately 100 adult participants through an online survey platform such as Prolific or Qualtrics. Participants would be fluent English speakers between the ages of 18 and 65.
+
+Because this project is a simulated design rather than a real experiment, participant data would be artificially generated for demonstration purposes.
+
+### Independent Variable
+
+The independent variable would be the emotional framing category of each headline.
+
+The proposed emotional framing conditions include:
+
+1. Neutral
+2. Fear/Urgency
+3. Hopeful
+4. Curiosity-Driven
+5. Validation/Reassurance
+
+### Dependent Variable
+
+The dependent variable would be click intention score.
+
+Participants would rate how likely they would be to click each headline using a Likert-style scale from 1 to 10, where:
+
+- 1 = Extremely unlikely to click
+- 10 = Extremely likely to click
+
+### Experimental Stimuli
+
+Participants would view multiple digital headlines presented in randomized order.
+
+Example headlines include:
+
+| Emotional Category | Example Headline |
+|---|---|
+| Neutral | “5 Tips for Improving Productivity” |
+| Fear/Urgency | “You May Be Destroying Your Productivity Without Realizing It” |
+| Hopeful | “A Gentler Productivity System That Actually Works” |
+| Curiosity-Driven | “One Small Productivity Shift Changed Everything” |
+| Validation/Reassurance | “If Productivity Feels Hard Right Now, You’re Not Alone” |
+
+### Experimental Procedure
+
+1. Participants would provide informed consent.
+2. Participants would view a randomized sequence of headlines.
+3. After viewing each headline, participants would rate their click intention from 1–10.
+4. Responses would be recorded and stored in a dataset for analysis.
+5. Data cleaning and statistical analysis procedures would then be conducted.
+
+### Ethical Considerations
+
+The proposed study would include informed consent procedures and would avoid the use of highly distressing emotional content.
+
+All participant data would be anonymized and stored securely. Participants would also have the right to withdraw from the study at any time.
+## 6. Proposed Code Structure and Analysis Pipeline
+
+The project would be implemented in Python using common data science and statistical analysis libraries.
+
+### Proposed Libraries
+
+The following Python libraries would likely be used:
+
+- pandas
+- numpy
+- matplotlib
+- scipy
+- statsmodels
+- random
+
+Each library would support different components of the project, including data storage, statistical analysis, visualization, and randomized stimulus presentation.
+
+### Proposed File Structure
+
+```plaintext
+emotional-framing-click-intention/
+│
+├── README.md
+├── project_design.md
+├── pseudocode.py
+├── mock_data.csv
+└── visualizations/
+## 7. Simulated Dataset and Expected Results
+
+Because this project is a design-focused submission, the dataset would be simulated rather than collected from real participants.
+
+The simulated dataset would model how participants might respond to emotionally framed headlines based on existing psychological theories related to attention, emotional salience, and digital engagement.
+
+### Example Simulated Data
+
+| participant_id | emotion_category | click_score |
+|---|---|---|
+| 001 | Neutral | 4 |
+| 001 | Fear/Urgency | 7 |
+| 001 | Hopeful | 6 |
+| 001 | Curiosity | 9 |
+| 001 | Validation/Reassurance | 8 |
+
+### Expected Findings
+
+It is expected that emotionally framed headlines would generate higher average click intention scores than neutral headlines.
+
+Specifically:
+- Curiosity-driven headlines are expected to receive the highest engagement scores due to information-gap effects and attentional capture.
+- Fear and urgency-based headlines may increase engagement by activating threat-monitoring and attention systems.
+- Validation and reassurance-based headlines may produce strong engagement among users experiencing stress or emotional fatigue.
+- Neutral headlines are expected to receive lower overall click intention ratings because they contain less emotionally salient language.
+
+### Interpretation of Results
+
+If the simulated findings supported the hypothesis, the project would suggest that emotional framing plays an important role in digital engagement behavior and online decision-making.
+
+These findings could have broader implications for:
+- Digital marketing
+- Media psychology
+- User experience research
+- Online education
+- Mental health communication
+- Behavioral persuasion strategies
+
+The project also highlights how psychological principles can be applied to real-world digital environments.
+## 8. Limitations and Future Directions
+
+One limitation of this project is that the study design is hypothetical and uses simulated rather than real participant data. As a result, the findings would not represent actual human behavior and could not be generalized beyond the simulated dataset.
+
+Another limitation is that click intention ratings may not fully reflect real-world online behavior. Participants may respond differently in controlled environments compared to natural digital settings where factors such as time pressure, platform design, and personal relevance influence decision-making.
+
+Additionally, emotional responses to headlines may vary depending on:
+- Personality traits
+- Age
+- Cultural background
+- Mood state
+- Prior experiences
+- Neurodiversity-related differences
+
+Future versions of this project could expand the design by:
+- Recruiting real participants
+- Measuring reaction time alongside click intention
+- Incorporating eye-tracking methods
+- Comparing neurotypical and neurodivergent populations
+- Using machine learning models to predict engagement behavior
+- Examining emotional framing across different social media platforms
+
+Future research may also explore ethical considerations related to emotional persuasion in digital environments, particularly when emotionally charged language is used to influence user behavior online.
+
+## 9. Conclusion
+
+This project presented a detailed design for a simulated psychology data analysis examining how emotional framing may influence click intention in digital environments.
+
+By combining concepts from psychology, behavioral science, and data analysis, the project demonstrates how emotional language may shape engagement behavior and decision-making processes online.
+
+Although the project was not fully implemented as a live experiment, the proposed design, statistical framework, and code structure demonstrate technical planning, psychological reasoning, and applied research design skills.
