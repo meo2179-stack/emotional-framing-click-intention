@@ -1,5 +1,6 @@
 # emotional-framing-click-intention
 A design document for a simulated psychology data analysis examining how emotional framing influences click intention.
+**Submission Type:** Option B — Design-Only Submission
 # Emotional Framing and Decision-Making: A Simulated Data Analysis of How Message Tone Influences Click Intention
 
 ## Project Overview
@@ -44,3 +45,8 @@ Future versions of this project could include:
 - Eye-tracking integration
 - Neurodiversity-related comparisons
 - Machine learning classification models
+
+## Author
+
+Morgan O'Donnell
+Programming for Psychology — Final Project
