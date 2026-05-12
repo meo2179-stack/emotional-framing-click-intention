@@ -1,6 +1,6 @@
 # emotional-framing-click-intention
 A design document for a simulated psychology data analysis examining how emotional framing influences click intention.
-**Submission Type:** Option B — Design-Only Submission
+**Submission Type:** Option B, Design-Only Submission
 # Emotional Framing and Decision-Making: A Simulated Data Analysis of How Message Tone Influences Click Intention
 
 ## Project Overview
