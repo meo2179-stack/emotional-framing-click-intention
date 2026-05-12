@@ -1,1 +1,100 @@
+# Emotional Framing and Decision-Making
+# Simulated Psychology Data Analysis
+# Pseudocode Example
 
+# -----------------------------------
+# IMPORT LIBRARIES
+# -----------------------------------
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import random
+
+# -----------------------------------
+# LOAD STIMULI DATA
+# -----------------------------------
+
+# Load CSV containing headlines and emotional categories
+stimuli = pd.read_csv("headlines.csv")
+
+# -----------------------------------
+# RANDOMIZE HEADLINE ORDER
+# -----------------------------------
+
+# Shuffle headlines to reduce order effects
+stimuli = stimuli.sample(frac=1)
+
+# -----------------------------------
+# CREATE EMPTY DATAFRAME
+# -----------------------------------
+
+results = []
+
+# -----------------------------------
+# PRESENT HEADLINES TO PARTICIPANTS
+# -----------------------------------
+
+for participant in range(1, 101):
+
+    for index, row in stimuli.iterrows():
+
+        headline = row["headline"]
+        emotion = row["emotion_category"]
+
+        # Simulated click intention response
+        click_score = random.randint(1, 10)
+
+        # Store results
+        results.append({
+            "participant_id": participant,
+            "emotion_category": emotion,
+            "click_score": click_score
+        })
+
+# -----------------------------------
+# CONVERT RESULTS TO DATAFRAME
+# -----------------------------------
+
+results_df = pd.DataFrame(results)
+
+# -----------------------------------
+# DATA CLEANING
+# -----------------------------------
+
+# Remove missing values
+results_df = results_df.dropna()
+
+# -----------------------------------
+# DESCRIPTIVE STATISTICS
+# -----------------------------------
+
+# Calculate average click scores
+mean_scores = results_df.groupby(
+    "emotion_category"
+)["click_score"].mean()
+
+print(mean_scores)
+
+# -----------------------------------
+# DATA VISUALIZATION
+# -----------------------------------
+
+# Create bar chart
+mean_scores.plot(kind="bar")
+
+plt.title("Average Click Intention by Emotional Framing")
+plt.xlabel("Emotional Category")
+plt.ylabel("Average Click Score")
+
+plt.show()
+
+# -----------------------------------
+# FUTURE ANALYSIS
+# -----------------------------------
+
+# Potential analyses:
+# - One-way ANOVA
+# - Regression analysis
+# - Post-hoc comparisons
+# - Reaction time analysis
