@@ -1,1 +1,31 @@
+# Project Design Document
+## Emotional Framing and Decision-Making: A Simulated Data Analysis of How Message Tone Influences Click Intention
+## 1. Project Goal
+The goal of this project is to design a simulated psychology data analysis examining how emotional framing in digital content may influence user decision-making behavior. Specifically, the project explores whether emotionally framed headlines affect an individual's likelihood of clicking on online content.
 
+This project combines concepts from psychology, behavioral science, and digital communication to investigate how emotional language may shape attention, engagement, and behavioral intention in digital environments.
+The project is presented as a design-focused submission rather than a fully implemented experiment. The document outlines the proposed experimental structure, data collection process, code architecture, statistical analysis plan, and expected findings.
+
+## 2. Research Question
+How does emotional framing in digital headlines influence click intention?
+
+## 3. Hypothesis
+It is hypothesized that emotionally framed headlines will generate higher click intention scores than neutral headlines.
+
+Specifically:
+- Curiosity-driven headlines are expected to produce the highest click intention scores.
+- Fear or urgency-based headlines are expected to increase attention and engagement compared to neutral language.
+- Validation and reassurance-based headlines may produce stronger engagement among emotionally fatigued or overwhelmed users.
+- Neutral headlines are expected to produce the lowest overall click intention scores.
+
+## 4. Psychological Relevance
+This project is grounded in psychological theories related to:
+- Attention and salience
+- Emotional processing
+- Decision-making
+- Cognitive bias
+- Persuasion and behavioral influence
+- Digital engagement behavior
+
+Emotionally charged information is often more attention-grabbing and memorable than neutral information. In digital environments where users rapidly evaluate large amounts of content, emotional framing may influence which information individuals choose to engage with.
+Understanding these patterns may help researchers better understand online behavior, media engagement, and digital persuasion strategies.
